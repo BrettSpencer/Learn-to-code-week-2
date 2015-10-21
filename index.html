@@ -23,14 +23,14 @@
           } else if(userChoice ==="rock") {
             if (computerChoice==="scissors") {
 
-                window.alert("Rock wins!");
+                window.alert(userName + " wins!");
           } else {
                 window.alert("Paper wins");
               }
           }
           else if(userChoice==="paper") {
              if(computerChoice ==="rock") {
-                 window.alert("Paper wins!");
+                 window.alert(userName + " wins!");
              } else {
                  window.alert("scissors wins!");
              }
@@ -40,7 +40,7 @@
               if (computerChoice==="rock") {
                   window.alert("Scissors wins!");
               } else {
-                  window.alert("scissors wins");
+                  window.alert(userName + " wins");
               }
           }
       };
@@ -49,6 +49,8 @@
   <body>
     <div class="wrapper">
       <button class="button" onclick="compare(userChoice, computerChoice);">LETS PLAY RPS!</button>
+      <button class="button" onclick=location.reload()>Play Again</button>
+    
       
     </div>
   </body>
