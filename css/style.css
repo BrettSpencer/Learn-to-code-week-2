@@ -4,8 +4,20 @@
 
 .button {
     position: relative;
+    margin-top:200px;
     top: 50%;
-    width: 200px;
-    height: 100px;
+    width: 600px;
+    height: 300px;
     display: inline-block;
+    border-radius: 60px;
+    background-color: chartreuse;
+    color:white;
+}
+
+.button:hover{
+    background-color: blue;
+    color:black;
+}
+
+body {background-image: url(../paper.jpg);
 }
